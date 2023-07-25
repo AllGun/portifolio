@@ -1,0 +1,165 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f1efef;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+}
+
+header {
+  width: 90vw;
+  height: 15vh;
+  background-color: #f1efef;
+  margin-top: 61px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 5vw;
+}
+
+#logo-container {
+  width: 35vw;
+  font-size: 36px;
+}
+
+span {
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  width: 65vw;
+  /* justify-content: space-around; */
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 55vw;
+}
+
+ul > li {
+  font-size: 21px;
+}
+
+#btn-download-cv {
+  font-size: 1.4rem;
+  width: 12rem;
+  padding: 1rem;
+  border-radius: 10em;
+  color: #f1efef;
+  background-color: blueviolet;
+}
+
+#btn-download-cv a {
+  color: #f1efef;
+  text-decoration: none;
+}
+
+
+li a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+section{
+  width: 90vw;
+  height: 75vh;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-sub-section {
+  width: 50vw;
+  margin-left: 5vw;
+}
+
+.right-sub-section {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#meu-nome {
+  font-size: 2em;
+}
+
+#web-developer {
+  font-size: 3.5em;
+  margin-left: 1.5em;
+}
+
+#frontend {
+  font-size: 3.5em;
+  margin-left: 4em;
+  margin-bottom: 0.5em;
+}
+
+#texto-apresetacao {
+  line-height: 2em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#btn-contato {
+  margin-left: 10em;
+  border-radius: 10em;
+  font-size: 21px;
+  width: 12rem;
+  padding: 1rem;
+  color: #f1efef;
+  background-color: blueviolet;
+}
+
+#btn-contato a {
+  color: #f1efef;
+  text-decoration: none; 
+}
+
+.minha-foto-01 {
+  width: 30vw;
+  height: 30vw;
+  background-color: blueviolet;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  margin-left: 0em;
+  background-image: url("../img/Imagem_do_WhatsApp_de_2023-05-31_à_s__10.02.24-removebg-preview.png");
+  background-size: 84%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bi-linkedin, .bi-github {
+  font-size: 2.5em;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bi-github {
+  margin-left: 1em;
+}
+
+#sobre, #contato {
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  background-image: url("../img/60028.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sobre a, #contato a{
+  text-decoration: none;
+  margin-top: 2em;
+  font-size: 2em;
+}
